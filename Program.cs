@@ -29,9 +29,9 @@ Setting it UP
 
    Now we will setup the Migration.
    Open the Package manager CONSOLE type : Add-Migration Initial
-   This will an intial file with code that actually creates the table based on the previous steps.
+   This will intiate a file with code that actually creates the table based on the previous steps.
    Open the Package manager CONSOLE again and type : update-database
-   This will create the database for you , and fill it withe the needed table and a migration table to sees if any futere migrations took place.
+   This will create the database for you , and fill it with the needed table and a migration table to sees if any future migrations took place.
    
    Finished for now and enjoy your database endevours and experiments
                               
