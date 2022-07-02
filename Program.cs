@@ -7,7 +7,7 @@ Installing everything
 
    Install Entity framework on your machine first with CMD or POWERSHELL.
    
-   Type this CLI : 
+   Type this CLI : dotnet tool install --global dotnet-ef
 
    Start a Console App project . 
    In the project go to manage NuGet packages and install : Microsoft.EntityFrameworkCore.SqlServer .
@@ -43,7 +43,10 @@ namespace Entity_Framework_Setup
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine("Tadaaaaa , this was the very short & simpel explanation of Entity Frame work ");
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine();
         }
     }
 
