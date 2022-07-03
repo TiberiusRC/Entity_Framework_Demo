@@ -13,7 +13,8 @@ namespace Entity_Framework_Setup
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Enter the connectionstring. (Server name , Database name , security setting)
-            optionsBuilder.UseSqlServer("Server=MOFOMACHINERC\\TIBERIUSSERVSQL;Database=EFCoreDemo;Integrated Security=True");
+
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=EFCoreDemo;Integrated Security=True");
 
 
             
